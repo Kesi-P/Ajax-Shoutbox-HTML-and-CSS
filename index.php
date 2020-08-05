@@ -1,3 +1,4 @@
+<?php include 'database.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -18,7 +19,7 @@
         </ul>
       </div>
       <footer>
-        <form class="" action="index.html" method="post">
+        <form>
           <label for="">Name: </label>
           <input type="text" id="name" value="">
           <label for="">Shout Text: </label>
